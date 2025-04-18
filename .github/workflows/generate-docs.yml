@@ -9,6 +9,10 @@ permissions:
   pages: write
   id-token: write
 
+concurrency: 
+  group: generate-docs
+  cancel-in-progress: true
+
 jobs:
   generate_docs:
     runs-on: ubuntu-22.04
