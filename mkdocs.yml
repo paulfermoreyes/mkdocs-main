@@ -1,0 +1,4 @@
+site_name: Paul Reyes sample MKDocs
+nav:
+  - "Sub 1": sub1/README.md
+  - "Sub 2": sub2/README.md
